@@ -1,0 +1,23 @@
+{
+  "extensionId" : "com.github.lburgazzoli:spring-boot-application",
+  "version" : "1.0.0-SNAPSHOT",
+  "tags" : [ "a", "v" ],
+  "actions" : [ {
+    "name" : "myName",
+    "actionType" : "extension",
+    "description" : "myDescription",
+    "tags" : [ "a", "b" ],
+    "descriptor" : {
+      "kind" : "com.github.lburgazzoli.application.Main.MainRouteBuilder",
+      "entrypoint" : "myEntrypoint",
+      "inputDataShape" : {
+        "kind" : "myInputDataShape"
+      },
+      "outputDataShape" : {
+        "kind" : "myOutputDataShape"
+      }
+    },
+    "id" : "myid"
+  } ],
+  "dependencies" : [ "ch.qos.logback:logback-classic:jar:1.1.11", "ch.qos.logback:logback-core:jar:1.1.11", "com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0", "com.fasterxml.jackson.core:jackson-core:jar:2.8.10", "com.fasterxml.jackson.core:jackson-databind:jar:2.8.10", "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10", "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.10", "com.jayway.jsonpath:json-path:jar:2.4.0", "com.sun.xml.bind:jaxb-core:jar:2.2.11", "com.sun.xml.bind:jaxb-impl:jar:2.2.11", "io.syndesis.integration-runtime:model:jar:1.1-SNAPSHOT", "io.syndesis.integration-runtime:runtime-api:jar:1.1-SNAPSHOT", "io.syndesis.integration-runtime:runtime:jar:1.1-SNAPSHOT", "io.syndesis:syndesis-annotation-processor:jar:1.1-SNAPSHOT", "net.minidev:accessors-smart:jar:1.2", "net.minidev:json-smart:jar:2.3", "org.apache.camel:camel-core-starter:jar:2.20.0", "org.apache.camel:camel-core:jar:2.19.0", "org.apache.camel:camel-jackson:jar:2.20.0", "org.apache.camel:camel-jsonpath:jar:2.20.0", "org.apache.camel:camel-spring-boot-starter:jar:2.20.0", "org.apache.camel:camel-spring-boot:jar:2.20.0", "org.apache.camel:camel-spring:jar:2.20.0", "org.ow2.asm:asm:jar:5.0.4", "org.slf4j:jcl-over-slf4j:jar:1.7.25", "org.slf4j:jul-to-slf4j:jar:1.7.25", "org.slf4j:log4j-over-slf4j:jar:1.7.25", "org.slf4j:slf4j-api:jar:1.7.25", "org.springframework.boot:spring-boot-autoconfigure:jar:1.5.7.RELEASE", "org.springframework.boot:spring-boot-starter-logging:jar:1.5.7.RELEASE", "org.springframework.boot:spring-boot-starter:jar:1.5.7.RELEASE", "org.springframework.boot:spring-boot:jar:1.5.7.RELEASE", "org.springframework:spring-aop:jar:4.3.11.RELEASE", "org.springframework:spring-beans:jar:4.3.11.RELEASE", "org.springframework:spring-context:jar:4.3.11.RELEASE", "org.springframework:spring-core:jar:4.3.11.RELEASE", "org.springframework:spring-expression:jar:4.3.11.RELEASE", "org.springframework:spring-tx:jar:4.3.11.RELEASE", "org.yaml:snakeyaml:jar:1.17" ]
+}
